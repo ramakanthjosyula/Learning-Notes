@@ -8,3 +8,4 @@ git log
 git checkout <hash/branch> ===> head will be moved to the branch latest latest
 git checkout -b <name>  ===> branch is created and head is moved to branch
 git checkout master ==> head moves back to master latest
+git show-branch <branch-1> <branch-2>   ===> compare the branches

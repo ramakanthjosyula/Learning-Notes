@@ -13,3 +13,24 @@ git show-branch <branch-1> <branch-2>   ===> compare the branches
 git merge <branch-name> ==> merges the current branch to the given branch name. This is called fast forward merge provided there are no conflicts
 git fetch origin            # Updates origin/master
 git rebase origin/master    # Rebases current branch onto origin/master    ===> we need to rebase the branch with master before we merge master.
+
+
+clone == > copy the repositories to local desktop
+push ===> push the code to remore repository
+
+Fetch ===> fetch the ppls work
+Pull  = Fetch + merge from remote repository
+
+
+General development workflow : 
+
+
+1. Git status
+2. git pull
+3. Make the changes
+4. git status
+5. git add -A
+6. git commit -master
+7. git push
+
+

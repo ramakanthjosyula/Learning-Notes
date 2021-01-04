@@ -1,0 +1,37 @@
+CircleCI : 
+
+/***************************************************************/
+
+Git commands : 
+
+git add calculator.py
+git commit -m 
+pip install flake8 pytest pytest-cov
+	
+
+Create Unit tests : add test_Calculator.py
+
+pytest -v --cov .
+pip freeze > requirements.txt
+git add -A
+git commit -m "Added unit tests"
+git push
+
+Create CI pipeline : 
+
+- Create ".circleci" directory
+- Add "config.yml"
+/***************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+

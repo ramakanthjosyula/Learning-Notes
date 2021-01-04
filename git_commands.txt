@@ -5,4 +5,6 @@ git init  ==> initialize git (creates .git file in the directory)
 git add -A 
 git commit -m "<msg>"
 git log
-git checkout <hash/branch> ===> head will be moved to latest
+git checkout <hash/branch> ===> head will be moved to the branch latest latest
+git checkout -b <name>  ===> branch is created and head is moved to branch
+git checkout master ==> head moves back to master latest

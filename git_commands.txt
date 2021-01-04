@@ -1,0 +1,8 @@
+Git Commands : 
+
+
+git init  ==> initialize git (creates .git file in the directory)
+git add -A 
+git commit -m "<msg>"
+git log
+git checkout <hash/branch> ===> head will be moved to latest

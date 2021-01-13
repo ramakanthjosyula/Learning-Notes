@@ -11,6 +11,7 @@ pip install flake8 pytest pytest-cov
 
 Create Unit tests : add test_Calculator.py
 
+pytest -m statistics
 pytest -v --cov=calculator
 pip freeze > requirements.txt
 git add -A

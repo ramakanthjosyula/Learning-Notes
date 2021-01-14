@@ -1,0 +1,11 @@
+Install docker on desktop
+docker container run -it  --name Ramakanth-2 python
+docker container ls
+docker attach Ramakanth-2
+docker rm Ramakanth
+
+
+
+
+
+

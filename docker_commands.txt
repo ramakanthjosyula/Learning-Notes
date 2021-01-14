@@ -4,6 +4,25 @@ docker container ls
 docker attach Ramakanth-2
 docker rm Ramakanth
 
+Image building :
+================
+Dockerfile
+==========
+FROM python:rc-slim
+COPY requirements.txt .
+WORKDIR /usr/src/app
+COPY requirements.txt .
+RUN python -m pip install -r requirements.txt
+COPY *.py .
+COPY *.robot .
+CMD  python -m robot TestCases.robot
+
+docker build -t marvel:1 .
+
+
+
+
+
 
 
 
